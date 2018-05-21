@@ -17,6 +17,7 @@
 * revert to the original commit: `git reset HEAD~1`
 * revert the changed file back to its original version in working directory: `git checkout HEAD <file_name>`
 * `git fetch` and `git pull` both have similar purpose
+* `git rm <file_name>` is used to stage a deleted file, and the file will also be deleted from file system. If we want to keep the file in file system, we should use `git rm --cached <file_name>` instead.
 
 
 ### Error Message Case01

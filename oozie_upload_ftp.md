@@ -1,5 +1,5 @@
 
-** Reference
+## Reference
 
 [Tianyi's script to export csv and upload to sftp](http://git.trivago.trv/projects/BI/repos/sem-bidding-wf/browse/co_semDailyProduction/wf_semDailyProduction/wf_biddingFeatures/wf_gclid_conversion_value/workflow.xml)
 
@@ -18,7 +18,7 @@
 
 
 
-** Learn how to export table as csv file
+## Learn how to export table as csv file
 1. When create a table, it must be stored as `TEXTFILE`, instead of the usual `PARQUET`
 
 ```SQL
